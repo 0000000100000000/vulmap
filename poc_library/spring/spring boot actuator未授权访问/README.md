@@ -1,7 +1,7 @@
 ### 一 漏洞描述
 Actuator 是 Spring Boot 提供的服务监控和管理中间件，默认配置会导致接口未授权访问，部分接口会泄露网站配置信息、流量信息和内存信息等，如果工程还使用了 Jolokia 依赖，攻击者甚至可以远程执行任意代码，获取服务器权限。
 
-### 二 利用方式
+### 二 漏洞利用
 利用1  
 通过“/jolokia”远程执行代码  
 https://github.com/mpgn/Spring-Boot-Actuator-Exploit

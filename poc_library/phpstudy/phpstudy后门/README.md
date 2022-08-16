@@ -6,7 +6,7 @@ Phpstudy软件是国内的⼀款免费的PHP调试环境的程序集成包，通
 ### 二 漏洞利用
 ![img.png](img.png)
 
-### 三 修复方式
+### 三 漏洞修复
 可以从PHP官网下载原始php-5.4.45版本或php-5.2.17版本，替换其中的php_xmlrpc.dll，下载地址：
 
 https://windows.php.net/downloads/releases/archives/php-5.2.17-Win32-VC6-x86.zip
